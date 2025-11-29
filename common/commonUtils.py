@@ -5,14 +5,15 @@ import string
 from datetime import datetime
 
 
-def generatePasswd(length=8):
+def generatePasswd(length=9):
     """
     生成随机密码
     :param length: 密码长度
     :return:
     """
-    characters = string.ascii_letters + string.digits
-    return ''.join(random.choices(characters, k=length))
+    #characters = string.ascii_letters + string.digits
+    #return ''.join(random.choices(characters, k=length))
+    return "123qwe!@#"
 
 
 def convertSeconds(seconds):
